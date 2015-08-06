@@ -1,8 +1,12 @@
 /* mobile styles and breakpoints */
 
-@media only screen and (min-width: 767px) {
-    header p {
-        width: 100%;
+@media only screen and (max-width: 767px) {
+    .two-col {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-gap: 0;
+        -moz-column-gap: 0;
+        column-gap: 0;
     }
-
 }

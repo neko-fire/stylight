@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px solid red;
+    overflow: hidden;
+
+    h1 {
+        padding: 20px;
+        margin: 0;
+    }
+
+    p {
+        margin: 0 0 12px;
+    }
+}
