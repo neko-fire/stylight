@@ -1,0 +1,53 @@
+/**
+* Base Stylsheet for Stylight task
+*
+* @author Martin Bayer
+* @date 06 August 2015
+*
+* Desktop first layout
+*/
+
+// TODO: cleanup unecessary css
+
+@import "mobile";
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width: 90%;
+    border: 1px solid red;
+    margin: 0 auto 24px auto;
+    overflow: hidden;
+
+    h1 {
+        padding: 20px 40px;
+    }
+
+    p {
+        width: 50%;
+        float: left; /* check better solutions from framework grids */
+    }
+}
+
+
+.pin-content {
+    width: 90%;
+    border: 1px solid green;
+    margin: 0 auto;
+
+
+    .pin-item {
+
+    }
+}

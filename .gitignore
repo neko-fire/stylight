@@ -1,0 +1,123 @@
+# IDES & Editors
+# --------------------
+.settings/
+.buildpath
+.project
+.idea/
+nbproject/
+gitupdate
+gitignore
+*~
+atlassian-ide-plugin.xml
+*.pydevproject
+.project
+.metadata
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+nbproject/
+Bones.esproj/
+
+# OS specifics file
+# --------------------
+
+[Tt]humbs.db
+[Dd]esktop.ini
+*.DS_store
+.DS_store?
+._.DS_Store
+._*
+.AppleDouble/
+.AppleDesktop/
+.AppleDB/
+Network Trash Folder
+Temporary Items
+.fuse_hidden*
+1
+Thumb.db
+
+############
+## dev, cache, temp
+############
+
+bin/
+tmp/
+*.tmp
+*.bak
+*.log
+*.[Cc]ache
+*.cpr
+*.orig
+*.php.in
+.idea/
+temp/
+._*
+.Trashes
+
+.svn
+
+*.codekit
+*.scssc
+.sass-cache/
+
+# Builds
+#---------------------
+bower_components/
+.bowerrc
+node_modules/
+g-styleguide/
+
+
+# Prestashop
+#---------------------
+cache/
+img/tmp/
+config/settings.inc.php
+shop/
+shop-original/
+
+# Wordpress
+#---------------------
+# Ignore everything in the root except the "wp-content" directory.
+#/*
+#!.gitignore
+#!wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# and "themes" directories.
+#wp-content/*
+#!wp-content/plugins/
+#!wp-content/themes/
+
+# Ignore everything in the "plugins" directory, except the plugins you
+# specify (see the commented-out examples for hints on how to do this.)
+#wp-content/plugins/*
+# !wp-content/plugins/my-single-file-plugin.php
+# !wp-content/plugins/my-directory-plugin/
+
+# Ignore everything in the "themes" directory, except the themes you
+# specify (see the commented-out example for a hint on how to do this.)
+#wp-content/themes/*
+# !wp-content/themes/my-theme/
+
+
+*.log
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php

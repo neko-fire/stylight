@@ -1,0 +1,40 @@
+/**
+* Base Stylsheet for Stylight task
+*
+* @author Martin Bayer
+* @date 06 August 2015
+*
+* Desktop first layout
+*/
+/* mobile styles and breakpoints */
+@media only screen and (min-width: 767px) {
+  header p {
+    width: 100%; } }
+body {
+  width: 100%;
+  margin: 0 auto;
+  display: block; }
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 90%;
+  border: 1px solid red;
+  margin: 0 auto 24px auto;
+  overflow: hidden; }
+  header h1 {
+    padding: 20px 40px; }
+  header p {
+    width: 50%;
+    float: left;
+    /* check better solutions from framework grids */ }
+
+.pin-content {
+  width: 90%;
+  border: 1px solid green;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=app.css.map */
