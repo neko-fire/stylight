@@ -1,5 +1,13 @@
 /* mobile styles and breakpoints */
 
+@media only screen and (max-width: 900px) {
+    .pin-content {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .two-col {
         -webkit-column-count: 1;
@@ -10,3 +18,13 @@
         column-gap: 0;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .pin-content {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+
