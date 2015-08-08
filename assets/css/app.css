@@ -22,7 +22,6 @@ a {
 
 header {
   border: 1px solid;
-  margin-top: 40px;
   overflow: hidden; }
   header h1 {
     padding: 20px;
@@ -46,19 +45,34 @@ ul {
 
 #home {
   width: 90%;
+  padding-top: 60px;
   margin: 0 auto 24px auto; }
 
 nav {
   position: fixed;
   top: 0;
-  width: 100%;
-  background: #ccc; }
+  right: 5%;
+  left: 5%;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  background: #ccc;
+  z-index: 9999; }
   nav a {
     display: block;
     padding: 8px;
     margin-right: 12px; }
-  nav input:focus {
-    width: 100%; }
+  nav form {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+  nav input {
+    border: none;
+    padding: 12px; }
+    nav input:focus {
+      width: 100%;
+      outline: none;
+      background: #e6e6e6; }
 
 #task-1 .pin-content {
   margin: 20px 0;
