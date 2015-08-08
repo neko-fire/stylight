@@ -9,7 +9,83 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .two-col {
+
+    #home {
+        width: 100%;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    nav {
+        display: block;
+        width: 300px;
+        left: -300px;
+        position: fixed;
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+        top: 0;
+        bottom: 0;
+        padding: 0 15px 15px;
+        max-width: 90%;
+        z-index: 10;
+        background-color: #ccc;
+        -webkit-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        -moz-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        -ms-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        -o-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+
+        ul {
+            li {
+                float: none;
+
+                &:hover ul {
+                    display: none;
+                }
+            }
+            
+            ul {
+                position: static;
+                padding-left: 12px;
+                display: none;
+            }
+        }
+
+        &.js-drawer-open {
+            -webkit-transform: translateX(300px);
+            -moz-transform: translateX(300px);
+            -ms-transform: translateX(300px);
+            -o-transform: translateX(300px);
+            transform: translateX(300px);
+        }
+
+        a {
+            color: #666;
+        }
+    }
+
+    // move content when nav is expanded
+    .js-moved {
+        -webkit-transform: translateX(300px);
+        -moz-transform: translateX(300px);
+        -ms-transform: translateX(300px);
+        -o-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+
+    .content {
+        -webkit-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        -moz-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        -ms-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        -o-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+    }
+
+
+    .header-content {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;

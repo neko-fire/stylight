@@ -1,3 +1,9 @@
+*, input, :before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     margin: 0 auto;
@@ -93,6 +99,10 @@ nav {
             background: lighten(#ccc, 10%);
         }
     }
+}
+
+.mobile-nav {
+    display: none;
 }
 
 
