@@ -9,15 +9,20 @@
 body {
   width: 100%;
   margin: 0 auto;
-  display: block; }
+  display: block;
+  color: #666; }
 
 img {
   display: block;
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none; }
+
 header {
   border: 1px solid;
+  margin-top: 40px;
   overflow: hidden; }
   header h1 {
     padding: 20px;
@@ -25,11 +30,37 @@ header {
   header p {
     margin: 0 0 12px; }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  ul > li {
+    position: relative;
+    float: left; }
+    ul > li:hover ul {
+      display: block;
+      background: #ccc; }
+  ul ul {
+    position: absolute;
+    display: none; }
+
 #home {
   width: 90%;
   margin: 0 auto 24px auto; }
 
-.pin-content {
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ccc; }
+  nav a {
+    display: block;
+    padding: 8px;
+    margin-right: 12px; }
+  nav input:focus {
+    width: 100%; }
+
+#task-1 .pin-content {
   margin: 20px 0;
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -37,13 +68,22 @@ header {
   -webkit-column-gap: 20px;
   -moz-column-gap: 20px;
   column-gap: 20px; }
-  .pin-content .pin-item {
+  #task-1 .pin-content .pin-item {
     text-align: center;
     margin-bottom: 12px; }
-    .pin-content .pin-item img {
+    #task-1 .pin-content .pin-item img {
       margin: 0 auto; }
 
-.two-col {
+#task-2 .pin-content {
+  margin: 20px 0; }
+  #task-2 .pin-content .pin-item {
+    width: 320px;
+    text-align: center;
+    margin-bottom: 12px; }
+    #task-2 .pin-content .pin-item img {
+      margin: 0 auto; }
+
+.header-content {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
