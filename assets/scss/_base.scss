@@ -26,7 +26,6 @@ header {
     border: 1px solid;
     overflow: hidden;
 
-
     h1 {
         padding: 20px;
         margin: 0;
@@ -105,7 +104,6 @@ nav {
     display: none;
 }
 
-
 // content styles
 #task-1 {
     .pin-content {
@@ -132,8 +130,10 @@ nav {
 #task-2 {
     .pin-content {
         margin: 20px 0;
+        position: relative;
 
         .pin-item {
+            position: absolute;
             width: 320px;
             text-align: center;
             margin-bottom: 12px;

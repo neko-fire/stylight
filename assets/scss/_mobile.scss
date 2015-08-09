@@ -32,11 +32,11 @@
         max-width: 90%;
         z-index: 10;
         background-color: #ccc;
-        -webkit-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
-        -moz-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
-        -ms-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
-        -o-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
-        transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        -webkit-transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
+        -moz-transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
+        -ms-transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
+        -o-transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
+        transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
 
         ul {
             li {
@@ -46,7 +46,7 @@
                     display: none;
                 }
             }
-            
+
             ul {
                 position: static;
                 padding-left: 12px;
@@ -77,13 +77,12 @@
     }
 
     .content {
-        -webkit-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
-        -moz-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
-        -ms-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
-        -o-transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
-        transition: all 0.35s cubic-bezier(0.46, 0.01 , 0.32, 1);
+        -webkit-transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
+        -moz-transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
+        -ms-transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
+        -o-transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
+        transition: all 0.35s cubic-bezier(0.46, 0.01, 0.32, 1);
     }
-
 
     .header-content {
         -webkit-column-count: 1;

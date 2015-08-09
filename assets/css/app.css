@@ -97,8 +97,10 @@ nav {
       margin: 0 auto; }
 
 #task-2 .pin-content {
-  margin: 20px 0; }
+  margin: 20px 0;
+  position: relative; }
   #task-2 .pin-content .pin-item {
+    position: absolute;
     width: 320px;
     text-align: center;
     margin-bottom: 12px; }
