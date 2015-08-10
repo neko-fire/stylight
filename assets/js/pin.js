@@ -42,7 +42,7 @@
                 // update height of current item for next iteration
                 $this.chunks[index] = min + $(this).outerHeight() + $this.gap;
 
-                console.log($(this).outerHeight(), min, $this.chunks);
+                //console.log($(this).outerHeight(), min, $this.chunks);
             });
         },
 
