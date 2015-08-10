@@ -110,6 +110,12 @@ nav {
     margin-bottom: 12px; }
     #task-2 .pin-content .pin-item img {
       margin: 0 auto; }
+#task-2 .type-1 {
+  height: 750px; }
+#task-2 .type-2 {
+  height: 250px; }
+#task-2 .type-3 {
+  height: 450px; }
 
 .header-content {
   -webkit-column-count: 2;
