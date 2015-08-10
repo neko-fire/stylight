@@ -14,12 +14,14 @@
         gap: 12,
 
         // calc how many items fit in content width
-        getColumnSize: function () {
+        createGrid: function () {
             var columns = Math.floor(this.contentWidth / (this.items.outerWidth() + this.gap));
 
             for (var i = 0; i < columns; i++) {
                 this.chunks.push(this.gap);
             }
+
+            this.setItemPosition();
         },
 
         setItemPosition: function () {
@@ -37,17 +39,16 @@
                     'top': min + 'px'
                 });
 
-                // update height
+                // update height of current item for next iteration
                 $this.chunks[index] = min + $(this).outerHeight() + $this.gap;
             });
         },
 
         init: function () {
-            this.getColumnSize();
-            this.setItemPosition();
+            this.createGrid();
         }
     };
-    
+
     // Helper since there is no framework like _underscore
     Array.min = function (array) {
         return Math.min.apply(Math, array);
