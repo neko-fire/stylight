@@ -7,25 +7,6 @@
 (function () {
     'use strict';
 
-    // pin stuff
-    var items = $('.pin-item'),
-        contentWidth = $('.content').innerWidth(),
-        chunks = [],
-        gap = 20;
-
-    // calc how many items fit in content width
-    function getGridSize() {
-        var columns = Math.floor(contentWidth / (items.outerWidth() + gap));
-
-        
-
-        console.log(columns);
-    }
-
-
-    getGridSize();
-
-
     /**
      * Small stuff
      */
